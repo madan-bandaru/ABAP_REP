@@ -5,7 +5,7 @@ class ZTEST_MM_GIT definition
 
 public section.
 
-  methods WRITE .
+  class-methods WRITE .
 protected section.
 private section.
 ENDCLASS.
@@ -17,6 +17,9 @@ CLASS ZTEST_MM_GIT IMPLEMENTATION.
 
   method WRITE.
 
+* This is a test
+
     Write: 'Hello World'.
+
   endmethod.
 ENDCLASS.
