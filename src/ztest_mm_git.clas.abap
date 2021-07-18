@@ -21,5 +21,7 @@ CLASS ZTEST_MM_GIT IMPLEMENTATION.
 
     Write: 'Hello World'.
 
+    Select * FROM sflight into TABLE @DATA(i_sflight).
+
   endmethod.
 ENDCLASS.
